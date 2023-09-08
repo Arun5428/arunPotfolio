@@ -15,7 +15,7 @@ const ExperienceCard=({experience})=>(
 
   <VerticalTimelineElement className="vertical-timeline-element--work "
   contentStyle={{background:'#1d1839',color:'#fff'}}
-  contentArrowStyle={{borderRight:'20px solid white' }}
+  contentArrowStyle={{borderRight:'7px solid  #232631' }}
    date={experience.date}
   iconStyle={{background:"white"}}
   // icon={
@@ -57,17 +57,19 @@ const Experience = () => {
 
 
 
-<motion.div variants={fadeIn('left','tween',0.2,1)}>
+<motion.div className="mt-20 flex flex-col " 
+//  variants={fadeIn("right","spring",0.5)}
+ >
 
-
-      <div className="mt-20 flex flex-col ">
+{/* 
+      <div  className="mt-20 flex flex-col "> */}
       <VerticalTimeline  >
         {experiences.map((experience,index)=>(
           <ExperienceCard key={index} experience={experience}/>
         ))}
       </VerticalTimeline>
 
-      </div>
+      {/* </div> */}
       </motion.div>
 
     </>

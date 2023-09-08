@@ -5,6 +5,7 @@ import { styles } from '../styles';
 import{services} from '../constants';
 import{fadeIn,textVariant}from '../utils/motion';
 import { SectionWraper } from '../hoc';
+import image from '../img/e.png'
 const ServiceCard=({index,title,icon})=>{
   return(
          <Tilt className="xs:w-[250px] w-full ">
@@ -58,12 +59,18 @@ const About = () => {
      spring boot jsp servet and backend sql mongodb. I'm a quick leaner and collaborate closely with
      clients to create efficient,scalable, and user-friently solution the
       solve real-world problems. Let's work together to bring your ideas to life
+
+
       </motion.p>
+    
+      
+      
+      
       <div className='mt-20 flex flex-wrap gap-10'>
-        {services.map((service,index)=>(
+        {/* {services.map((service,index)=>(
           <ServiceCard key={service.title} index=
           {index}{...service}/>
-        ))}
+        ))} */}
       </div>
     </>
   )
