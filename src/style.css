@@ -2,7 +2,7 @@
  * @Author: Your name
  * @Date:   2023-07-22 18:15:44
  * @Last Modified by:   Your name
- * @Last Modified time: 2023-08-02 09:20:24
+ * @Last Modified time: 2023-09-15 08:14:58
  */
 
  
@@ -109,8 +109,8 @@
  
  .about-img{
      position: relative;
-     width: 26rem;
-     height: 26rem;
+     width: 22rem;
+     height: 22rem;
      border-radius: 50;
      display: flex;
      justify-content: center;
@@ -196,3 +196,127 @@
          width: 0;
      }
  }
+
+
+
+
+
+ /* .container{
+    width: 100%;
+    padding-right:0px ;
+    padding-left: 0px;
+    margin-right:auto ;
+    margin-left: auto;
+    
+ } */
+
+ 
+ .experience-section{
+    padding: 65px 0 100px;
+
+    position: relative;
+    
+ }
+ .experience-section .experience-items{
+    margin-top: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap:wrap;
+    flex-wrap:wrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: center;
+    gap: 20px;
+    
+ }
+ 
+ .experience-item{
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 48%;
+    flex: 0 0 48%;
+    max-width:48%;
+    
+ }
+ .experience-info{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    
+ }
+ .experience-info p{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    color: #e4e7ee;
+    -webkit-animation: showText 0.5s 1s linear forwards;
+    animation: showtext 0.5s 1s linear forwards;
+    
+ }
+ .progress-line{
+    margin-top: 7px;
+    height: 10px;
+    width: 100%;
+    background-color: #797474;
+    border-radius: 50px;
+    position: relative;
+    
+ }
+ .progress-line span{
+    -webkit-transform:  scaleX(0);
+    transform: scaleX(0);
+    -webkit-transform-origin: left;
+    transform-origin: left;
+    -webkit-animation: animate 1s cubic-bezier(1,0,0.5,1) forwards;
+    animation: animate 1s cubic-bezier(1,0,0.5,1) forwards;
+    height: 100%;
+    border-radius: 50px;
+    position: absolute;
+    background-color: #fd6e0a;
+    transition: 1s all;
+    
+ }
+ .progress-line span.animate{
+    -webkit-animation: animate 1.5s 0.5s cubic-bezier(1,0,0.5,1) forwards;
+    animation: animate 1.5s 0.5s cubic-bezier(1,0,0.5,1) forwards;
+
+ }
+ @-webkit-keyframes shawText{
+    100%{
+        opacity: 1;
+    }
+ }
+
+ @keyframes shawText{
+    100%{
+        opacity: 1;
+    }
+ }
+ @-webkit-keyframes animate{
+    100%{
+        -webkit-transform: scaleX(1);
+        transform: scaleX(1);
+    }
+ }
+ @keyframes animate{
+    100%{
+        -webkit-transform: scaleX(1);
+        transform: scaleX(1);
+    }
+ }
+
+ @media only screen and (max-width:768px){
+    .experience-item{
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 90%;
+    flex: 0 0 90%;
+    max-width:90%;
+    
+ }
+ }
+
+
+ 

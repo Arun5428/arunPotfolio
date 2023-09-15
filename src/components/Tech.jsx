@@ -3,7 +3,8 @@ import { SectionWraper } from "../hoc";
 import { motion } from "framer-motion";
 import { fadeIn,textVariant } from "../utils/motion";
 import { styles } from "../styles";
-import { technologies } from "../constants";
+import { skills, technologies } from "../constants";
+import '../style.css'
 
 
 const Tech = () => {
@@ -32,12 +33,42 @@ const Tech = () => {
          
          
         ))}
-        
-
+    
 
 
     
-      </div></>
+      </div>
+      <section className="experience-section mt-20 flex flex-col" id="about">
+     
+      <motion.div variants={fadeIn('right','tween',0.2,1)} className="container">
+      <div className="experience-items">
+      {
+        skills.map((skill,name)=>(
+
+       
+      <motion.div className="experience-item" key={skill.name}
+       variants={fadeIn("up","spring",
+  name*0.25, 0.5)}
+      >
+      <div className="experience-info">
+        <p>{skill.name}</p>
+        <p>{skill.percentage}%</p>
+
+      </div>
+      <div className="progress-line" data-percentage={`${skill.percentage}`}>
+        <span style={{width:`${skill.percentage}%`}}></span>
+      </div>
+
+      </motion.div>
+      ))
+      }
+      </div>
+
+      </motion.div>
+
+      </section>
+      
+      </>
 
 
     

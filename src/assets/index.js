@@ -1,3 +1,9 @@
+/**
+ * @Author: Your name
+ * @Date:   2023-07-18 11:37:29
+ * @Last Modified by:   Your name
+ * @Last Modified time: 2023-09-15 07:47:34
+ */
 import logo from "./logo.svg";
 import backend from "./backend.png";
 import creator from "./creator.png";
@@ -20,6 +26,7 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import java from "./tech/java.png"
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -29,9 +36,16 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import sql from "./tech/sql.png"
+import spring from "./tech/th.jpg";
+import javac from "./javac.png"
 
 export {
+  spring,
   logo,
+  java,
+  javac,
+  sql,
   backend,
   creator,
   mobile,

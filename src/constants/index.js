@@ -2,13 +2,17 @@
  * @Author: Your name
  * @Date:   2023-07-18 11:52:06
  * @Last Modified by:   Your name
- * @Last Modified time: 2023-09-08 13:10:23
+ * @Last Modified time: 2023-09-15 07:48:56
  */
 import {
     mobile,
     backend,
+    spring,
     creator,
+    javac,
+    sql,
     web,
+    java,
     javascript,
     typescript,
     html,
@@ -29,6 +33,8 @@ import {
     jobit,
     tripguide,
     threejs,
+    
+    
   } from "../assets";
   
   export const navLinks = [
@@ -68,6 +74,18 @@ import {
   
   const technologies = [
     {
+      name: "java",
+      icon: java,
+    },
+    {
+      name: "sql",
+      icon: sql,
+    },
+    // {
+    //   name: "spring Boot",
+    //   icon: spring,
+    // },
+    {
       name: "HTML 5",
       icon: html,
     },
@@ -79,10 +97,7 @@ import {
       name: "JavaScript",
       icon: javascript,
     },
-    {
-      name: "TypeScript",
-      icon: typescript,
-    },
+   
     {
       name: "React JS",
       icon: reactjs,
@@ -92,10 +107,7 @@ import {
       name: "Tailwind CSS",
       icon: tailwind,
     },
-    {
-      name: "Node JS",
-      icon: nodejs,
-    },
+    
     {
       name: "MongoDB",
       icon: mongodb,
@@ -104,6 +116,83 @@ import {
     {
       name: "git",
       icon: git,
+    },
+  
+  
+  ];
+
+
+  const Certicates = [
+    {
+      name: "java",
+      image: javac,
+    },
+    
+
+    
+    
+  
+  
+  ];
+
+  const skills = [
+    {
+      name: "Java",
+      icon: html,
+      percentage:"85",
+    },
+    {
+      name: "jsp Servlet",
+      icon: typescript,
+      percentage:"50",
+    },
+    {
+      name: "SQL",
+      icon: html,
+      percentage:"70",
+      
+    },
+    {
+      name: "MongoDB",
+      icon: mongodb,
+      percentage:"70",
+    },
+    {
+      name: "Spring Boot",
+      percentage:"30",
+    },
+    {
+      name: "HTML 5",
+      icon: html,
+      percentage:"80",
+    },
+    {
+      name: "CSS 3",
+      icon: css,
+      percentage:"60",
+    },
+    {
+      name: "JavaScript",
+      icon: javascript,
+      percentage:"50",
+    },
+   
+    {
+      name: "React JS",
+      icon: reactjs,
+      percentage:"30",
+    },
+    
+    {
+      name: "Tailwind CSS",
+      icon: tailwind,
+      percentage:"30",
+    },
+  
+    {
+      name: "git",
+      icon: git,
+      percentage:"50",
     },
   
   
@@ -256,49 +345,8 @@ import {
       source_code_link: "https://react-app-moviesreview.onrender.com/",
       git_source_link:"https://github.com/Arun5428/moviesReview.git",
     },
-    // {
-    //   name: "Job IT",
-    //   description:
-    //     "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    //   tags: [
-    //     {
-    //       name: "react",
-    //       color: "blue-text-gradient",
-    //     },
-    //     {
-    //       name: "restapi",
-    //       color: "green-text-gradient",
-    //     },
-    //     {
-    //       name: "scss",
-    //       color: "pink-text-gradient",
-    //     },
-    //   ],
-    //   image: jobit,
-    //   source_code_link: "https://github.com/",
-    // },
-    // {
-    //   name: "Trip Guide",
-    //   description:
-    //     "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    //   tags: [
-    //     {
-    //       name: "nextjs",
-    //       color: "blue-text-gradient",
-    //     },
-    //     {
-    //       name: "supabase",
-    //       color: "green-text-gradient",
-    //     },
-    //     {
-    //       name: "css",
-    //       color: "pink-text-gradient",
-    //     },
-    //   ],
-    //   image: tripguide,
-    //   source_code_link: "https://github.com/",
-    // },
+   
   ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { services, technologies, experiences, testimonials, projects,skills,Certicates };
   
