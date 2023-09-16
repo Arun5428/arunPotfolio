@@ -2,7 +2,7 @@
  * @Author: Your name
  * @Date:   2023-07-18 11:52:06
  * @Last Modified by:   Your name
- * @Last Modified time: 2023-09-15 07:48:56
+ * @Last Modified time: 2023-09-16 07:38:09
  */
 import {
     mobile,
@@ -10,6 +10,7 @@ import {
     spring,
     creator,
     javac,
+    review,
     sql,
     web,
     java,
@@ -321,7 +322,7 @@ import {
     {
       name: "Movies Reviwes App",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "A web-based platform that enables users to search for movies, watch trailers, and post reviews for a variety of films..",
       tags: [
         {
           name: "Spring Boot",
@@ -341,7 +342,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
+      image: review,
       source_code_link: "https://react-app-moviesreview.onrender.com/",
       git_source_link:"https://github.com/Arun5428/moviesReview.git",
     },

@@ -55,10 +55,11 @@ const About = () => {
         className='mt-4 text-secondary text-[17px]
       max-w-3xl leading-[30px]'
       >
-     I'm a skiled software developer with experience in java web application and expertise in frameworks like 
-     spring boot jsp servet and backend sql mongodb. I'm a quick leaner and collaborate closely with
-     clients to create efficient,scalable, and user-friently solution the
-      solve real-world problems. Let's work together to bring your ideas to life
+     I'm a skiled software developer with experience in java web application and
+     Proficient in fundamental web development (HTML, CSS, JavaScript) and equipped
+     with basic knowledge of Spring Boot,Jsp Servet and ReactJS. Familiar with Tailwind CSS 
+     and have backend experience with SQL and MongoDB. Committed to crafting efficient, scalable solutions
+    that solve real-world problems. Passionate about staying updated with the latest in technology.
 
 
       </motion.p>

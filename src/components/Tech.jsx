@@ -48,7 +48,7 @@ const Tech = () => {
        
       <motion.div className="experience-item" key={skill.name}
        variants={fadeIn("up","spring",
-  name*0.25, 0.5)}
+  name*0.5, 0.5)}
       >
       <div className="experience-info">
         <p>{skill.name}</p>

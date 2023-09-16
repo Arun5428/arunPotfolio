@@ -47,10 +47,10 @@ const Ser = () => {
       <motion.div
        variants={textVariant()}>
         <p className={styles.sectionSubText}>
-         My Certications
+        my certificates
         </p>
         <h2 className={styles.sectionHeadText
-        }> Certicate </h2>
+        }> Certifications </h2>
       </motion.div>
      
       <div className="mt-2 flex flex-wrap gap-7"

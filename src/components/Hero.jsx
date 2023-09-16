@@ -103,7 +103,7 @@ const Hero = () => {
 
 <motion.div className='about' id='about'>
     
-      <div className="about-img  lg:top-[400px] sm:top-[350px] xs:top-[300px] top-[300px] mt-2 sm:w-[30rem] sm:h-[30rem] xs:w-[30rem] xs:h-[30rem] lg:w-[30rem]  lg:h-[30rem]">
+      <div className="about-img  lg:top-[400px] sm:top-[350px] xs:top-[300px] top-[300px] mt-2 sm:w-[26rem] sm:h-[26rem] xs:w-[26rem] xs:h-[26rem] lg:w-[26rem]  lg:h-[26rem]">
       
       
         <img src={image} alt=""/>
