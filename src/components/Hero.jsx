@@ -55,19 +55,19 @@ const Hero = () => {
           <div className="pt-7 flex flex-row space-x-10 sm:space-x-[40px] lg:space-x-[2.5rem] xs:space-x-[20px]  text-4xl">
      
     
-      <a href="https://www.youtube.com/c/jamesqquick"
-        className="youtube social">
+      <a href="https://github.com/Arun5428"
+        className="youtube social" target='_blank'>
         <FontAwesomeIcon icon={faGithub} size="1.5x" />
       </a>
-      <a href="https://www.facebook.com/learnbuildteach/"
-        className="facebook social bg-slate-100 h-7">
+      <a href="https://www.linkedin.com/in/arunkumar-annamalai-79a32a213"
+        className="facebook social bg-slate-100 h-7" target='_blank'>
         <FontAwesomeIcon icon={faLinkedin} size="1.5x"  />
       </a>
-      <a href="https://www.twitter.com/jamesqquick" className="twitter social">
+      <a href="#" className="twitter social" target='_blank'>
         <FontAwesomeIcon icon={faTwitter} size="1.5x"  />
       </a>
-      <a href="https://www.instagram.com/learnbuildteach"
-        className="instagram social">
+      <a href="#"
+        className="instagram social" target='_blank'>
         <FontAwesomeIcon icon={faInstagram} size="1.5x" />
       </a>
 </div>
