@@ -2,7 +2,7 @@
  * @Author: Your name
  * @Date:   2023-07-18 11:52:06
  * @Last Modified by:   Your name
- * @Last Modified time: 2023-09-17 07:48:37
+ * @Last Modified time: 2023-09-17 08:01:15
  */
 import {
     mobile,
@@ -35,6 +35,7 @@ import {
     tripguide,
     threejs,
     java1,
+    javaa,
     
     
   } from "../assets";
@@ -77,7 +78,7 @@ import {
   const technologies = [
     {
       name: "java",
-      icon: java1,
+      icon: javaa,
     },
     {
       name: "sql",
