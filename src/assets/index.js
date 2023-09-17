@@ -2,7 +2,7 @@
  * @Author: Your name
  * @Date:   2023-07-18 11:37:29
  * @Last Modified by:   Your name
- * @Last Modified time: 2023-09-16 07:27:59
+ * @Last Modified time: 2023-09-17 07:47:58
  */
 import logo from "./logo.svg";
 import backend from "./backend.png";
@@ -40,11 +40,13 @@ import sql from "./tech/sql.png"
 import spring from "./tech/th.jpg";
 import javac from "./javac.png";
 import review from "./tech/review.jpg";
+import java1 from "./tech/java1.png"
 
 export {
   spring,
   logo,
   java,
+  java1,
   javac,
   review,
   sql,
