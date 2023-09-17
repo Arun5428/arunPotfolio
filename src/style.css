@@ -2,7 +2,7 @@
  * @Author: Your name
  * @Date:   2023-07-22 18:15:44
  * @Last Modified by:   Your name
- * @Last Modified time: 2023-09-15 08:14:58
+ * @Last Modified time: 2023-09-17 08:11:16
  */
 
  
@@ -109,8 +109,8 @@
  
  .about-img{
      position: relative;
-     width: 22rem;
-     height: 22rem;
+     width: 20rem;
+     height: 20rem;
      border-radius: 50;
      display: flex;
      justify-content: center;
