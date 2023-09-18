@@ -52,7 +52,8 @@ const Hero = () => {
         
           
           </div>  */}
-          <div>
+          <motion.div variants={fadeIn('right','tween',0.2,1)}>
+          
           <div className="pt-7 flex flex-row space-x-10 sm:space-x-[40px] lg:space-x-[2.5rem] xs:space-x-[20px]  text-4xl">
      
     
@@ -72,7 +73,8 @@ const Hero = () => {
         <FontAwesomeIcon icon={faInstagram} size="2xs" />
       </a>
 </div>
-          </div>
+         
+          </motion.div>
         
         </div>
 

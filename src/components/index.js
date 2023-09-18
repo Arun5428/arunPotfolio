@@ -2,7 +2,7 @@
  * @Author: Your name
  * @Date:   2023-07-18 11:40:48
  * @Last Modified by:   Your name
- * @Last Modified time: 2023-09-14 19:48:34
+ * @Last Modified time: 2023-09-18 16:02:00
  */
 import { EarthCanvas, BallCanvas, ComputersCanvas, StarsCanvas } from './canvas';
 import Hero from './Hero';
@@ -15,11 +15,13 @@ import Feedbacks from './Feedbacks';
 import Contact from './Contact';
 import Certicate from './Certicate';
 import Ser from './Ser';
+import PageLoader from './loader/pageLoader';
 
 
 
 export {
   Hero,
+  PageLoader,
   Ser,
   Navbar,
   About,
