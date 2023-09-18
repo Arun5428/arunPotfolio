@@ -2,7 +2,7 @@
  * @Author: Your name
  * @Date:   2023-07-18 11:48:42
  * @Last Modified by:   Your name
- * @Last Modified time: 2023-09-18 12:29:50
+ * @Last Modified time: 2023-09-18 12:58:37
  */
 
 const styles = {
@@ -11,7 +11,7 @@ const styles = {
     padding: "sm:px-16 px-6 sm:py-16 py-10",
   
     heroHeadText:
-      "font-black text-white lg:text-[60px] sm:text-[25px] xs:text-[25px] text-[25px] lg:leading-[98px] mt-2",
+      "font-black text-white lg:text-[60px] sm:text-[25px] xs:text-[25px] text-[28px] lg:leading-[98px] mt-2",
     heroSubText:
       "text-[#dfd9ff] font-medium lg:text-[30px] sm:text-[10px] xs:text-[20px] text-[16px] lg:leading-[40px]",
   

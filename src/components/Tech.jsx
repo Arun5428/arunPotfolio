@@ -15,7 +15,7 @@ const Tech = () => {
     
       >
         <p className={styles.sectionSubText}>
-          My Skills
+          My Skills                                                                                                                             
         </p>
         <h2 className={styles.sectionHeadText}>Skills</h2>
 

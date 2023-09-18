@@ -7,6 +7,7 @@ import { AiFillFacebook, AiFillGithub, AiFillInstagram, AiFillLinkedin, AiFillTw
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Canvas } from "@react-three/fiber";
 import { Preload} from "@react-three/drei";
+import{fadeIn,textVariant}from '../utils/motion';
 
 import {
   faYoutube,
@@ -100,8 +101,9 @@ const Hero = () => {
 
      {/* social icons */}
       
+     <Suspense fallback={<CanvasLoader/>}> 
 
-<motion.div className='about' id='about'>
+<motion.div className='about' id='about' variants={fadeIn("","",0.1,1)}>
     
       <div className="about-img  lg:top-[400px] sm:top-[350px] xs:top-[300px] top-[300px] mt-2 sm:w-[20rem] sm:h-[20rem] xs:w-[20rem] xs:h-[20rem] lg:w-[20rem]  lg:h-[20rem]">
       
@@ -119,7 +121,7 @@ const Hero = () => {
             
       </motion.div>
 
-
+</Suspense>
       
    
     {/* <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center
