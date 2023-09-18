@@ -35,7 +35,7 @@ const Hero = () => {
           <h1 className={`${styles.heroHeadText} text-white`}>
             Hi, I'm <span className='text-[#915EFF]'>Arunkumar</span>
           </h1>
-          <div className={` text-animate font-black text-white lg:text-[50px] sm:text-[30px] xs:text-[20px] text-[25px] lg:leading-[98px]`}>
+          <div className={` text-animate font-black text-white lg:text-[50px] sm:text-[30px] xs:text-[20px] text-[20px] lg:leading-[98px]`}>
                     <h3>Software <span className='tan'> developer</span></h3>
                     
                 </div>
@@ -57,18 +57,18 @@ const Hero = () => {
     
       <a href="https://github.com/Arun5428"
         className="youtube social" target='_blank'>
-        <FontAwesomeIcon icon={faGithub} size="1x" />
+        <FontAwesomeIcon icon={faGithub} size="2xs" />
       </a>
       <a href="https://www.linkedin.com/in/arunkumar-annamalai-79a32a213"
-        className="facebook social bg-slate-100 h-7" target='_blank'>
-        <FontAwesomeIcon icon={faLinkedin} size="1x"  />
+        className="facebook social bg-slate-100" target='_blank'>
+        <FontAwesomeIcon icon={faLinkedin} size="2xs"  />
       </a>
       <a href="#" className="twitter social" target='_blank'>
-        <FontAwesomeIcon icon={faTwitter} size="1x"  />
+        <FontAwesomeIcon icon={faTwitter} size="2xs"  />
       </a>
       <a href="#"
         className="instagram social" target='_blank'>
-        <FontAwesomeIcon icon={faInstagram} size="1x" />
+        <FontAwesomeIcon icon={faInstagram} size="2xs" />
       </a>
 </div>
           </div>
