@@ -23,7 +23,7 @@ import '../social.css'
 const Hero = () => {
   return (
     <section className='relative w-full h-screen mx-auto overflow-hidden'>
-    <div className={`${styles.paddingX} absolute inset-0 top-[120px] max-w-7xl mx-auto flex
+    <div className={`${styles.paddingX} absolute inset-0 top-[100px] max-w-7xl mx-auto flex
     flex-row items-start gap-5`}>
     <div className='flex flex-col 
     justify-center items-center mt-5'>
@@ -57,18 +57,18 @@ const Hero = () => {
     
       <a href="https://github.com/Arun5428"
         className="youtube social" target='_blank'>
-        <FontAwesomeIcon icon={faGithub} size="1.5x" />
+        <FontAwesomeIcon icon={faGithub} size="1x" />
       </a>
       <a href="https://www.linkedin.com/in/arunkumar-annamalai-79a32a213"
         className="facebook social bg-slate-100 h-7" target='_blank'>
-        <FontAwesomeIcon icon={faLinkedin} size="1.5x"  />
+        <FontAwesomeIcon icon={faLinkedin} size="1x"  />
       </a>
       <a href="#" className="twitter social" target='_blank'>
-        <FontAwesomeIcon icon={faTwitter} size="1.5x"  />
+        <FontAwesomeIcon icon={faTwitter} size="1x"  />
       </a>
       <a href="#"
         className="instagram social" target='_blank'>
-        <FontAwesomeIcon icon={faInstagram} size="1.5x" />
+        <FontAwesomeIcon icon={faInstagram} size="1x" />
       </a>
 </div>
           </div>
