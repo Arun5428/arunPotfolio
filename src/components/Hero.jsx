@@ -23,8 +23,8 @@ import '../social.css'
 const Hero = () => {
   return (
     <section className='relative w-full h-screen mx-auto overflow-hidden'>
-    <div className={`${styles.paddingX} absolute inset-0 top-[20px] max-w-7xl mx-auto flex
-    flex-row items-start gap-2`}>
+    <div className={`${styles.paddingX} absolute inset-0 top-[120px] max-w-7xl mx-auto flex
+    flex-row items-start gap-5`}>
     <div className='flex flex-col 
     justify-center items-center mt-5'>
     <div className='w-5 h-5 rounded-full bg-[#915eff]'/>
@@ -35,7 +35,7 @@ const Hero = () => {
           <h1 className={`${styles.heroHeadText} text-white`}>
             Hi, I'm <span className='text-[#915EFF]'>Arunkumar</span>
           </h1>
-          <div className={` text-animate font-black text-white lg:text-[50px] sm:text-[30px] xs:text-[20px] text-[20px] lg:leading-[98px]`}>
+          <div className={` text-animate font-black text-white lg:text-[50px] sm:text-[30px] xs:text-[20px] text-[25px] lg:leading-[98px]`}>
                     <h3>Software <span className='tan'> developer</span></h3>
                     
                 </div>
