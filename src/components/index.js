@@ -15,7 +15,7 @@ import Feedbacks from './Feedbacks';
 import Contact from './Contact';
 import Certicate from './Certicate';
 import Ser from './Ser';
-import PageLoader from './PageLoader';
+import PageLoader from '../pageloader/PageLoader';
 
 
 

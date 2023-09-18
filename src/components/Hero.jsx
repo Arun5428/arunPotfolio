@@ -2,7 +2,7 @@ import React,{Suspense}  from 'react'
 import { motion } from 'framer-motion';
 import { ComputersCanvas } from './canvas';
 import { styles } from '../styles';
-import '../style.css';
+import '../css/style.css';
 import { AiFillFacebook, AiFillGithub, AiFillInstagram, AiFillLinkedin, AiFillTwitterCircle, AiFillTwitterSquare } from 'react-icons/ai'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Canvas } from "@react-three/fiber";
@@ -19,7 +19,7 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import image from '../img/e.png';
 import CanvasLoader from "./Loader";
-import '../social.css'
+import '../css/social.css'
 
 const Hero = () => {
   return (

@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import { fadeIn,textVariant } from "../utils/motion";
 import { styles } from "../styles";
 import { skills, technologies } from "../constants";
-import '../style.css'
+import '../css/style.css'
 
 
 const Tech = () => {
