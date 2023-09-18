@@ -2,7 +2,7 @@
  * @Author: Your name
  * @Date:   2023-09-11 15:35:59
  * @Last Modified by:   Your name
- * @Last Modified time: 2023-09-11 20:18:07
+ * @Last Modified time: 2023-09-18 09:11:40
  */
 
   a.social:hover {
@@ -15,14 +15,13 @@
 
 a.facebook {
   color: #145ce2;
-  /* background-color: aliceblue;
-  height: 30px;
-  top:-115px; */
+ 
   
 }
 
 a.twitter {
   color: #49a1eb;
+  
 }
 
 a.instagram {

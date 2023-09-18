@@ -60,8 +60,8 @@ const Hero = () => {
         <FontAwesomeIcon icon={faGithub} size="2xs" />
       </a>
       <a href="https://www.linkedin.com/in/arunkumar-annamalai-79a32a213"
-        className="facebook social bg-slate-100" target='_blank'>
-        <FontAwesomeIcon icon={faLinkedin} size="2xs"  />
+        className="facebook social h-7" target='_blank'>
+        <FontAwesomeIcon icon={faLinkedin} size="2xs" className=""  />
       </a>
       <a href="#" className="twitter social" target='_blank'>
         <FontAwesomeIcon icon={faTwitter} size="2xs"  />
