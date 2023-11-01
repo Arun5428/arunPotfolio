@@ -22,7 +22,7 @@ const Tech = () => {
       </motion.div>
      
     
-    <div className="flex flex-row flex-wrap justify-center gap-10">
+    {/* <div className="flex flex-row flex-wrap justify-center gap-10">
     
         {technologies.map((technology) => (
           <div className="w-28 h-28"
@@ -37,8 +37,8 @@ const Tech = () => {
 
 
     
-      </div>
-      <section className="experience-section mt-20 flex flex-col" id="about">
+      </div> */}
+      <section className="experience-section mt-[-50px] flex flex-col" id="about">
      
       <motion.div variants={fadeIn('right','tween',0.2,1)} className="container">
       <div className="experience-items">
