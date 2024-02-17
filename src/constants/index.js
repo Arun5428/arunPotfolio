@@ -2,7 +2,7 @@
  * @Author: Your name
  * @Date:   2023-07-18 11:52:06
  * @Last Modified by:   Your name
- * @Last Modified time: 2024-02-17 08:35:19
+ * @Last Modified time: 2024-02-17 08:41:29
  */
 import {
     mobile,
@@ -287,7 +287,7 @@ import {
       company_name: "Thirumalai engneering collage",
       icon: meta,
       iconBg: "#E6DEDD",
-      date: "June 2021 - Present",
+      date: "June 2021 - Sep 2023",
       points: "Percentage :79.8%"
     },
   ];
