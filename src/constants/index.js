@@ -2,7 +2,7 @@
  * @Author: Your name
  * @Date:   2023-07-18 11:52:06
  * @Last Modified by:   Your name
- * @Last Modified time: 2023-09-17 08:18:25
+ * @Last Modified time: 2024-02-17 08:16:29
  */
 import {
     mobile,
@@ -267,7 +267,7 @@ import {
       points: "Percentage : 85%",
     },
     {
-      title: "HCL",
+      title: "HSL",
       company_name: "GHS SChool",
       icon: tesla,
       iconBg: "#E6DEDD",
@@ -275,7 +275,7 @@ import {
       points: "Percentage: 70%"
     },
     {
-      title: "UG(BSC.SC)",
+      title: "UG(BSC.CS)",
       company_name: "SCSVMV University",
       icon: shopify,
       iconBg: "#383E56",
