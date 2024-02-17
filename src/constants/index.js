@@ -2,7 +2,7 @@
  * @Author: Your name
  * @Date:   2023-07-18 11:52:06
  * @Last Modified by:   Your name
- * @Last Modified time: 2024-02-17 08:16:29
+ * @Last Modified time: 2024-02-17 08:35:19
  */
 import {
     mobile,
@@ -267,7 +267,7 @@ import {
       points: "Percentage : 85%",
     },
     {
-      title: "HSL",
+      title: "HSC",
       company_name: "GHS SChool",
       icon: tesla,
       iconBg: "#E6DEDD",
