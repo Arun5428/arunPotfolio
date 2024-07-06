@@ -1,0 +1,31 @@
+/**
+ * @Author: Your name
+ * @Date:   2023-09-11 15:35:59
+ * @Last Modified by:   Your name
+ * @Last Modified time: 2023-09-18 09:11:40
+ */
+
+  a.social:hover {
+    transform: translateY(-10px);
+  }
+
+  a.youtube {
+  color: #ebeaea;
+}
+
+a.facebook {
+  color: #145ce2;
+ 
+  
+}
+
+a.twitter {
+  color: #49a1eb;
+  
+}
+
+a.instagram {
+   
+    
+  color: rgb(209, 199, 199);
+}
