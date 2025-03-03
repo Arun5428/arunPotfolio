@@ -18,6 +18,7 @@ import {
   faLinkedin
 } from "@fortawesome/free-brands-svg-icons";
 import image from '../img/e.png';
+import im from '../img/arunPic.jpeg'
 import CanvasLoader from "./Loader";
 import '../css/social.css'
 
@@ -110,7 +111,7 @@ const Hero = () => {
       <div className="about-img  lg:top-[360px] sm:top-[350px] xs:top-[300px] top-[300px] mt-2 sm:w-[20rem] sm:h-[20rem] xs:w-[20rem] xs:h-[20rem] lg:w-[20rem]  lg:h-[20rem]">
       
       
-        <img src={image} alt=""/>
+        <img src={im} alt=""/>
                 <span class="circle-span "></span>
         
        
