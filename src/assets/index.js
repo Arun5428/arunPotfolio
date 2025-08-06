@@ -43,6 +43,7 @@ import review from "./tech/review.jpg";
 import javaa from "./tech/javaa.jpg";
 import blog from "./blog.jpg";
 import blog2 from "./blog2.jpg";
+import javacertificate from "./javaCertificate.jpg"
 
 export {
   spring,
@@ -81,4 +82,5 @@ export {
   carrent,
   jobit,
   tripguide,
+  javacertificate
 };

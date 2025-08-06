@@ -38,6 +38,7 @@ import {
     javaa,
     blog,
     blog2,
+    javacertificate
     
     
   } from "../assets";
@@ -130,7 +131,7 @@ import {
   const Certicates = [
     {
       name: "java",
-      image: javac,
+      image: javacertificate,
     },
     
 
@@ -203,33 +204,33 @@ import {
   
   ];
   
-  // const experiences = [
-  //   {
-  //     title: "React.js Developer",
-  //     company_name: "Starbucks",
-  //     icon: starbucks,
-  //     iconBg: "#383E56",
-  //     date: "March 2020 - April 2021",
-  //     points: [
-  //       "Developing and maintaining web applications using React.js and other related technologies.",
-  //       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-  //       "Implementing responsive design and ensuring cross-browser compatibility.",
-  //       "Participating in code reviews and providing constructive feedback to other developers.",
-  //     ],
-  //   },
-  //   {
-  //     title: "React Native Developer",
-  //     company_name: "Tesla",
-  //     icon: tesla,
-  //     iconBg: "#E6DEDD",
-  //     date: "Jan 2021 - Feb 2022",
-  //     points: [
-  //       "Developing and maintaining web applications using React.js and other related technologies.",
-  //       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-  //       "Implementing responsive design and ensuring cross-browser compatibility.",
-  //       "Participating in code reviews and providing constructive feedback to other developers.",
-  //     ],
-  //   },
+  const experiences = [
+    {
+      title: "React.js Developer",
+      company_name: "Starbucks",
+      icon: starbucks,
+      iconBg: "#383E56",
+      date: "March 2020 - April 2021",
+      points: [
+        "Developing and maintaining web applications using React.js and other related technologies.",
+        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+        "Implementing responsive design and ensuring cross-browser compatibility.",
+        "Participating in code reviews and providing constructive feedback to other developers.",
+      ],
+    }]
+    // {
+    //   title: "React Native Developer",
+    //   company_name: "Tesla",
+    //   icon: tesla,
+    //   iconBg: "#E6DEDD",
+    //   date: "Jan 2021 - Feb 2022",
+    //   points: [
+    //     "Developing and maintaining web applications using React.js and other related technologies.",
+    //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+    //     "Implementing responsive design and ensuring cross-browser compatibility.",
+    //     "Participating in code reviews and providing constructive feedback to other developers.",
+    //   ],
+    // },
   //   {
   //     title: "Web Developer",
   //     company_name: "Shopify",
@@ -259,16 +260,26 @@ import {
   // ];
   
 
-  const experiences = [
-    {
-      title: "SSLC",
-      company_name: "GHS School",
-      icon: starbucks,
-      iconBg: "#383E56",
-      date: "June 2015 - April 2016",
-      points: "Percentage : 85%",
+  const education = [
+
+     {
+      title: "PG(MCA)",
+      company_name: "Thirumalai engneering collage",
+      icon: meta,
+      iconBg: "#E6DEDD",
+      date: "June 2021 - Sep 2023",
+      points: "Percentage :79.8%"
     },
-    {
+     {
+      title: "UG(BSC.CS)",
+      company_name: "SCSVMV University",
+      icon: shopify,
+      iconBg: "#383E56",
+      date: "Jan 2018 - Jan 2021",
+      points: "Percentage :83.2%"
+    },
+
+     {
       title: "HSC",
       company_name: "GHS SChool",
       icon: tesla,
@@ -277,21 +288,16 @@ import {
       points: "Percentage: 70%"
     },
     {
-      title: "UG(BSC.CS)",
-      company_name: "SCSVMV University",
-      icon: shopify,
+      title: "SSLC",
+      company_name: "GHS School",
+      icon: starbucks,
       iconBg: "#383E56",
-      date: "Jan 2018 - Jan 2021",
-      points: "Percentage :83.2%"
+      date: "June 2015 - April 2016",
+      points: "Percentage : 85%",
     },
-    {
-      title: "PG(MCA)",
-      company_name: "Thirumalai engneering collage",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "June 2021 - Sep 2023",
-      points: "Percentage :79.8%"
-    },
+   
+   
+   
   ];
 
   
@@ -383,5 +389,5 @@ import {
    
   ];
   
-  export { services, technologies, experiences, testimonials, projects,skills,Certicates };
+  export { services, technologies, experiences, testimonials, projects,skills,Certicates,education };
   

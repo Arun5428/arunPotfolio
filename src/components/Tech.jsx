@@ -22,19 +22,14 @@ const Tech = () => {
       </motion.div>
      
     
-    {/* <div className="flex flex-row fle-28 h-28"
-            key={technology.name}>
-            <BallCanvas icon={technology.icon} />
-          
-          </div>
-         
-         
-        ))}
-    
+ <div className="flex flex-row flex-wrap gap-10">
+  {technologies.map((technology) => (
+    <div className="flex flex-row h-28 w-28" key={technology.name}>
+      <BallCanvas icon={technology.icon} />
+    </div>
+  ))}
+</div>
 
-
-    
-      </div> */}
       <section className="experience-section mt-[-50px] flex flex-col" id="about">
      
       <motion.div variants={fadeIn('right','tween',0.2,1)} className="container">
