@@ -87,10 +87,10 @@ import {
       name: "sql",
       icon: sql,
     },
-    // {
-    //   name: "spring Boot",
-    //   icon: spring,
-    // },
+    {
+      name: "spring Boot",
+      icon: spring,
+    },
     {
       name: "HTML 5",
       icon: html,
