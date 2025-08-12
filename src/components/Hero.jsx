@@ -104,7 +104,7 @@ const Hero = () => {
 
      {/* social icons */}
       
-     <Suspense fallback={<CanvasLoader/>}> 
+     {/* <Suspense fallback={<CanvasLoader/>}> 
 
 <motion.div className='about' id='about' variants={fadeIn('right','tween',0.2,1)}>
     
@@ -125,7 +125,7 @@ const Hero = () => {
       </motion.div>
 
 </Suspense>
-      
+       */}
    
     {/* <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center
     items-center'>
